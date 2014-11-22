@@ -24,8 +24,7 @@ The following files comprise the raw data:
 
 Folder | Filename | No Observations | No Fields | Format | Description
 ------ | -------- | --------------- | --------- | ------ | -----------
-/ | README.txt |  |  | text | "Description of the dataset: Human Activity Recognition Using Smartphones Dataset
-Version 1.0"
+/ | README.txt |  |  | text | "Description of the dataset: Human Activity Recognition Using Smartphones Dataset Version 1.0"
 / | features_info.txt |  |  | text | Description of the features and variables calculated
 / | features.txt |  |  | Space separated, field#1 = feature ID; field#2 = feature name | Index of all 561 features in datasets
 / | activity_labels.txt |  |  | Space separated, field#1 = activity ID; field#2 = activity name | Index of all 6 activities

@@ -1,11 +1,10 @@
 # Code Book for Tidy Data Project
 Data Set Code Book: Tidy Data from Human Activity Recognition Using Smartphones Dataset
+November 22, 2014
 
 ##Codebook
 
-November 22, 2014
-
-Codebook prepared by Bill Kelemen, based on data set obtained from the "Human Activity Recognition Using Smartphones Dataset - Version 1.0" [1]
+Codebook based on data set obtained from the "Human Activity Recognition Using Smartphones Dataset - Version 1.0" [1]
 
 The raw data contains the experiment records carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, the authors captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz.
 

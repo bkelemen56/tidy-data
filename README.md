@@ -1,8 +1,7 @@
 # Getting and Cleaning Data - Tidy Data Project
 https://class.coursera.org/getdata-009/human_grading/view/courses/972587/assessments/3/submissions
-
 November 22, 2014
-Prepared by Bill Kelemen
+
 
 ##Summary
 

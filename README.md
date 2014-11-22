@@ -1,11 +1,10 @@
 # Getting and Cleaning Data - Tidy Data Project
-https://class.coursera.org/getdata-009/human_grading/view/courses/972587/assessments/3/submissions
-November 22, 2014
-
 
 ##Summary
 
 The purpose of this project is to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. 
+
+See [project page](https://class.coursera.org/getdata-009/human_grading/view/courses/972587/assessments/3/submissions) for instructions.
 
 ### Raw data
 
@@ -23,7 +22,7 @@ Script | Description
 
 Tidy data set | Description
 ------------- | -----------
-`tidy_data_1.txt` | Contains the measurements that compute the mean and standard deviation for each measurement
+`tidy_data_1.txt` | Contains the measurements from the raw data that compute the mean and standard deviation for each measurement
 `tidy_data_2.txt` | Contains the average of each variable for each activity and each subject from the first tidy data set. **This is the final result of this tidy data project.**
 
 ## References

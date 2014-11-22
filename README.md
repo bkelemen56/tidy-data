@@ -6,6 +6,8 @@ The purpose of this project is to collect, work with, and clean a data set. The 
 
 See [project page](https://class.coursera.org/getdata-009/human_grading/view/courses/972587/assessments/3/submissions) for instructions.
 
+Refer to `codebook.md` for detailed instructions to download the raw data, process this data via an R script to produce the tidy data sets.
+
 ### Raw data
 
 The [raw data set](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) from the "Human Activity Recognition Using Smartphones Dataset - Version 1.0" [1] contains the experiment records carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, the authors captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz.

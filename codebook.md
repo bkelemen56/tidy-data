@@ -42,6 +42,7 @@ The `run_analysis.R` script will read the raw data downloaded by the `get_raw_da
 
 * Combines the training and test sets into one
 * A total of 66 features are extracted from the raw data that represent `mean()` and `std()` computations of measurements. Measures that are not means are excluded, although they have "mean" in their feature name (ex. `"...meanFreq()"` are weighted averages and `"angle(...,xxxMean)"` are angles of means).
+* All extracted features maintain the same units as the raw data. See the `README.txt` file in the `UCI HAR Dataset` folder for more information.
 * The activity ID label is replaced with the activity name: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
 * Finally makes the feature names descriptive and tidy: the original feature names are cleaned up by making all feature name unique, replacing '.'s with '\_' and finally removing any trailing '\_'s
 

@@ -46,7 +46,7 @@ The `run_analysis.R` script will read the raw data downloaded by the `get_raw_da
 
 Note that the only features extracted from the raw data represent mean() and std() of measurements (66 in total). Measures like meanFreq() are not means (they are weighted averages) and features like "angle(Z,gravityMean)" are also not means, but angles of means.
 
-Field label | Variable | Variable type | Allowable variables
+Field label | Variable | Variable type | Allowable values
 ----------- | -------- | ------------- | -------------------
 subject | Subject (volunteer) number | Numeric (integer) | 1-30
 activity | Activity type while wearing a smartphone (Samsung Galaxy S II) on the waist | String | WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
@@ -119,7 +119,7 @@ fBodyBodyGyroJerkMag_std_mean | std(FFT Body Gyroscope Jerk Signal Euclidean Nor
 
 **tidy_data_2.txt** - Contains average of each variable for each activity and each subject from the tidy_data_1.txt data set
 
-Field label | Variable | Variable type | Allowable variables
+Field label | Variable | Variable type | Allowable values
 ----------- | -------- | ------------- | -------------------
 activity | Activity type while wearing a smartphone (Samsung Galaxy S II) on the waist | String | WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 subject | Subject (volunteer) number | Numeric (integer) | 1-30

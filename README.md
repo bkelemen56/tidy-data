@@ -24,7 +24,7 @@ Script | Description
 Tidy data set | Description
 ------------- | -----------
 `tidy_data_1.txt` | Contains the measurements that compute the mean and standard deviation for each measurement
-`tidy_data_2.txt` | Contains the average of each variable for each activity and each subject from the first tidy data set. *This is the final result of this tidy data project.*
+`tidy_data_2.txt` | Contains the average of each variable for each activity and each subject from the first tidy data set. **This is the final result of this tidy data project.**
 
 ## References
 

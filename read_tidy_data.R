@@ -3,7 +3,7 @@
 # Course Project
 # https://class.coursera.org/getdata-009/human_grading/view/courses/972587/assessments/3/submissions
 #
-# Reads the two tidy data sets craeted by run_analysis.R
+# Reads the two tidy data sets created by run_analysis.R
 # 1) tidy_data_1.txt - tidy data from Human Activity Recognition Using 
 #    Smartphones Dataset (Version 1.0). Combines training and test sets, 
 #    includes only the measurements on the mean and standard deviation for each 

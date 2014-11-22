@@ -8,7 +8,7 @@ The raw data contains the experiment records carried out with a group of 30 volu
 
 Two tidy data sets are obtained from the raw data, that extract only the measurements that compute the mean and standard deviation for each measurement,  and a second tidy data set that contains the average of each variable for each activity and each subject from the first tidy data set.
 
-The second tidy data set if the final result of this tidy data project.
+The second tidy data set is the final result of this tidy data project.
 
 The code book contains the following sub-sections:
 
@@ -18,7 +18,7 @@ The code book contains the following sub-sections:
 
 ## Raw data
 
-The raw data of these experiments was downloaded from this URL:
+The raw data was downloaded from this URL:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 The `get_raw_data.R` script will download and unzip the raw data into the "UCI HAR Dataset" folder under the current directory. For more information on the raw data, refer to the README.txt file in the raw data folder. 
@@ -48,8 +48,8 @@ Note that the only features extracted from the raw data represent mean() and std
 
 Field label | Variable | Variable type | Allowable variables
 ----------- | -------- | ------------- | -------------------
-activity | Activity type while wearing a smartphone (Samsung Galaxy S II) on the waist | String | WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 subject | Subject (volunteer) number | Numeric (integer) | 1-30
+activity | Activity type while wearing a smartphone (Samsung Galaxy S II) on the waist | String | WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 tBodyAcc_mean_X_mean | mean(Body Acceleration Signal in the X direction) | Numeric (float) | 
 tBodyAcc_mean_Y_mean | mean(Body Acceleration Signal in the Y direction) | Numeric (float) | 
 tBodyAcc_mean_Z_mean | mean(Body Acceleration Signal in the Z direction) | Numeric (float) | 

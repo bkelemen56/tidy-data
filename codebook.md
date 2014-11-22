@@ -42,9 +42,14 @@ test | subject_test.txt | 2947 | 1 | Fixed width, 2 char x field = 2 char x reco
 
 The `run_analysis.R` script will read the raw data downloaded by the `get_raw_data.R` script and write the two tidy data set files to the current directory. **tidy_data_2.txt is the final result of this project.**
 
-**tidy_data_1.txt** - Combines training and test sets, includes only the measurements from the raw data that compute the mean and standard deviation for each measurement, uses descriptive activity names instead of IDs and labels the variables (columns) with tidy names.
+###tidy_data_1.txt
 
-Note that the only features extracted from the raw data represent mean() and std() of measurements (66 in total). Measures like meanFreq() are not means (they are weighted averages) and features like "angle(Z,gravityMean)" are also not means, but angles of means.
+* Combines the training and test sets into one
+* A total of 66 features are extracted from the raw data that represent mean() and std() computations of measurements. Measures that are not means are excluded, although they have "mean" in their feature name (ex. "...meanFreq()" are weighted averages and "angle(...,xxxMean)" are angles of means).
+* The activity ID label is replaced with the activity name: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING.
+* Finally makes the feature names descriptive and tidy: the original feature names are cleaned up by making all feature name unique, replacing '.'s with '_' and finally removing any trailing '_'s
+
+These columns are present in the data set file:
 
 Field label | Variable | Variable type | Allowable values
 ----------- | -------- | ------------- | -------------------
@@ -117,7 +122,12 @@ fBodyBodyGyroMag_std_mean | std(FFT Body Gyroscope Signal Euclidean Norm) | Nume
 fBodyBodyGyroJerkMag_mean_mean | mean(FFT Body Gyroscope Jerk Signal Euclidean Norm) | Numeric (float) | 
 fBodyBodyGyroJerkMag_std_mean | std(FFT Body Gyroscope Jerk Signal Euclidean Norm) | Numeric (float) | 
 
-**tidy_data_2.txt** - Contains average of each variable for each activity and each subject from the tidy_data_1.txt data set
+###tidy_data_2.txt
+
+* Contains average of each of the 66 features for each activity and each subject from the tidy_data_1.txt data set
+* Names of the new features contain "mean(...)" as they are averages
+
+These columns are present in the data set file:
 
 Field label | Variable | Variable type | Allowable values
 ----------- | -------- | ------------- | -------------------
